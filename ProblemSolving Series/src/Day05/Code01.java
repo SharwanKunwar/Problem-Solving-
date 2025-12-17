@@ -9,7 +9,7 @@ public class Code01 {
         for (int number : numbers){
             if (number > max){
                 max = number;
-            } else {
+            } else if(number < min) {
                 min = number;
             }
         }
