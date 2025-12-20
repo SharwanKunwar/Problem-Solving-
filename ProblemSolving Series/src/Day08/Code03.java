@@ -36,9 +36,7 @@ public class Code03 {
             }
 
             // Display the frequency of the current digit
-            System.out.println(
-                    "Digit " + digit + " appears " + count + " times"
-            );
+            System.out.println("Digit " + digit + " appears " + count + " times");
 
             // Remove the last digit of num to process the next digit
             num /= 10;
