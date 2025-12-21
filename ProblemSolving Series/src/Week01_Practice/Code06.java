@@ -1,4 +1,4 @@
-package Practice;
+package Week01_Practice;
 
 public class Code06 {
     static void main(String[] args) {

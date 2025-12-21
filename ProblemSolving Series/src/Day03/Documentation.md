@@ -202,7 +202,7 @@ This program checks palindrome words using string reversal and comparison, helpi
 
 * These programs strengthen loop + string manipulation logic
 * Important for Java basics, exams, and interviews
-* Practice them without copy-paste to master the concepts 👍
+* Week01_Practice them without copy-paste to master the concepts 👍
 ---
 
 ### 📂 Author
