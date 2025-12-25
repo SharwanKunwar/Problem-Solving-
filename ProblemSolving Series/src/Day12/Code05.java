@@ -24,7 +24,7 @@ public class Code05 {
             // and not equal to max
             else if (val > hold && val != max) {
 
-                // Update second largest value 
+                // Update second largest value
                 hold = val;
             }
         }
