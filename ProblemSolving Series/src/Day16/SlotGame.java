@@ -22,6 +22,31 @@ public class SlotGame {
                 balance -= bet;
             }
             System.out.println("spinning ...");
+            int result = spinning(bet);
+            balance +=result;
+            System.out.println("you win "+result+" and your total balance is : "+(result+balance));
         }
+
+    }
+    static int spinning(int bet){
+        String [] symbol = {"7\uFE0F⃣","👽","💀"};
+        boolean isWin = false;
+
+        int random1 = (int)(Math.random() * 2) + 0;
+        int random2 = (int)(Math.random() * 2) + 0;
+        int random3 = (int)(Math.random() * 2) + 0;
+
+        System.out.println(symbol[random1]);
+        System.out.println(symbol[random2]);
+        System.out.println(symbol[random3]);
+
+        if(random1 == random2 && random1 == random3) {
+            isWin = true;
+        }
+
+        if(isWin) return bet*7;
+
+        return 0;
+
     }
 }
