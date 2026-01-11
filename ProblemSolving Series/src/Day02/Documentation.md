@@ -1,4 +1,4 @@
-# 🔢 Java Number Programs (Day02)
+ # 🔢 Java Number Programs (Day02)
 
 This repository contains basic **Java number-based programs** solved using loops and arithmetic operations.
 These programs are commonly asked in **college labs, exams, and interviews**, and they help in building strong logical thinking.
